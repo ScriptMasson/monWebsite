@@ -1,0 +1,80 @@
+body {
+    padding: 0%;
+    background-image: url('../images/naturebg.jpg');
+    background-color: blueviolet;
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container-Chatbox {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: max-content;
+    width: auto;
+    background-color: rgba(200, 200, 200, 0.5);
+    border-radius: 10px 10px 10px 10px;
+    margin: 3rem 6rem 3rem 6rem;
+    padding: 3rem;
+}
+
+#item-mascot {
+    height: 12rem;
+    width: 12rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: fantasy;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 100%;
+}
+
+#item-chatbox {
+    display: flex;
+    height: 10rem;
+    width: 30rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    text-align: center;
+    justify-self: flex-end;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: fantasy;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    margin: 3rem;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-basis: 25%;
+    background-color: rgba(200, 200, 200, 0.5);
+    padding: 0.5rem;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cardItem {
+    display: flex;
+    width: 12rem;
+    height: 12rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-style: groove;
+    border-width: 0rem;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+#item-idlegame {
+    
+}
